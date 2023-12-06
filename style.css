@@ -4,13 +4,9 @@
   --background: rgba(0, 0, 0, 0.8);
 }
 
-body {
+body, p {
   margin: 0;
   font: 500 1em "Poiret One", sans-serif;
-}
-
-p {
-  margin: 0;
 }
 
 .navbar {
@@ -23,6 +19,7 @@ p {
   justify-content: center;
   align-items: center;
   z-index: 99;
+  gap: 1em;
 }
 
 .navbar a {
@@ -31,7 +28,6 @@ p {
   font-weight: 500;
   color: white;
   text-decoration: none;
-  margin: 0 0.3em 0 0.3em;
 }
 
 .sections section {
